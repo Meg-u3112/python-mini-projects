@@ -1,7 +1,7 @@
 # Spotify Data Analysis 🎵
 
 ## Overview
-This project focuses on analyzing Spotify song data to identify the most streamed songs and top artists using Python and data analysis techniques.
+This project  focuses on analyzing Spotify song data to identify the most streamed songs and top artists using Python and data analysis techniques.
 
 ## Objectives
 - Clean and preprocess Spotify data
