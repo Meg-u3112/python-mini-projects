@@ -6,9 +6,14 @@ My collection of LeetCode solutions written in Python.
 
 | Difficulty | Solved |
 |------------|---------|
-| Easy | 0 |
-| Medium | 0 |
+| Easy | 1 |
+| Medium | 1 |
 | Hard | 0 |
+
+### Recent Solutions
+
+- 2144. Minimum Cost of Buying Candies With Discount
+- 2196. Create Binary Tree From Descriptions
 
 ## Topics Covered
 
