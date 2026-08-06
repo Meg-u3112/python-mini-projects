@@ -1,0 +1,47 @@
+"""
+LeetCode 128. Longest Consecutive Sequence
+
+Difficulty: Medium
+
+Method 1: Hash Set
+
+Approach:
+- Store all numbers in a hash set for O(1) lookup.
+- A number is considered the start of a sequence if
+  (num - 1) is not present in the set.
+- Expand the sequence by checking consecutive numbers.
+- Track the maximum sequence length.
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+Concepts:
+- Hash Set
+- Sequence Detection
+- Array Traversal
+- O(1) Lookup
+"""
+
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+
+        numbers = set(nums)
+
+        longest = 0
+
+        for num in numbers:
+
+            # Start of a new sequence
+            if num - 1 not in numbers:
+
+                current = num
+                length = 1
+
+                while current + 1 in numbers:
+                    current += 1
+                    length += 1
+
+                longest = max(longest, length)
+
+        return longest
